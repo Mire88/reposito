@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+	<form action="#" method="post">
+		<table>
+			<tr>
+				<td>NOMBRE</td>
+				<td><input type="text" size="15" maxlength="30" value="Nombre" name="nombre" id="nombre" required></td>
+			</tr>
+			<tr>
+				<td>password</td>
+				<td><input type="password" size="15" maxlength="30" name="pass" id="pass"></td>
+			</tr>
+		</table>
+		
+		
+		<input type="date" size="15" maxlength="30" name="date" id="date">
+		<input type="number" size="15" maxlength="30" name="num" id="num">
+		<input type="email" size="15" maxlength="30" name="email" id="email">
+		<br>
+		<textarea name="comentarios" rows="10" cols="40">Escribe aquí tus comentarios</textarea>
+		<br>
+		<select name="transporte">
+			<option>Coche</option>
+			<option>Avión</option>
+			<option>Tren</option>
+		</select>
+		<br>
+		<select name="transporte" size="2">   //size tamaño que se desea mostrar//
+			<option>Coche</option>
+			<option>Avión</option>
+			<option>Tren</option>
+		</select>
+		<br>
+		<select name="transporte" size="2" multiple>
+			<option>Coche</option>
+			<option>Avión</option>
+			<option>Tren</option>
+		</select>
+		<br>
+		<input type="radio" name="transporte" value="1">Coche <!-- si son del mismo grupo tienen que tener el mismo name -->
+			<br>
+		<input type="radio" name="transporte" value="2" checked>Avión
+			<br>
+		<input type="radio" name="transporte" value="3">Tren
+		<br>
+		<input type="checkbox" name="transporte" value="1">Coche 		<!-- es seleccion multiple y pertenecen al mismo grupo,  -->
+		<br>
+		<input type="checkbox" name="transporte" value="2" checked>Avión
+		<br>
+		<input type="checkbox" name="transporte" value="3">Tren
+		<br>
+		<input type="submit" value="enviar informaci&oacute;n">
+		<input type="reset" value="Borrar informaci&oacute;n">
+	</form>	
+</body>
+</html>
