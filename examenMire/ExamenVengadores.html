@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Examen Vengadores</title>
+	<link rel="icon" href="https://titaniumcustomprinting.co.uk/wp-content/uploads/2019/06/Avengers-1-White.png">
+	<style type="text/css">
+		h1{
+			color: blue;
+			}
+		div {
+
+			background-color: radial-gradient(100px top, ellipse, white, #1115ac, white);
+
+			padding: 10px;
+			width: 80%;
+			text-align: center;
+			color:blue;
+		}
+		
+
+		#titulo{
+			
+			background-color:rgba(255,0,0, 0.4);
+		}
+
+		#boton{
+			text-align: center;
+		}
+	</style>
+	<script type="text/javascript">
+		var cal=0;
+
+
+		function calcular(){
+			respuesta1 = document.getElementById("1")
+			if (respuesta1.value === "ironman") {
+				document.getElementById("color1").style.color = 'green';
+				cal++;
+			}
+			else{
+				document.getElementById("color1").style.color = 'red';
+			}
+
+			respuesta2 = document.getElementById("2")
+			if (respuesta2.value === "gema de la mente") {
+				document.getElementById("color2").style.color = 'green';
+				cal++;
+			}
+			else{
+				document.getElementById("color2").style.color = 'red';
+			}
+
+			respuesta3 = document.getElementById("3")
+			if (respuesta3.value === "telequinesia") {
+				document.getElementById("color3").style.color = 'green';
+				cal++;
+			}
+			else{
+				document.getElementById("color3").style.color = 'red';
+			}
+
+			respuesta4 = document.getElementById("4")
+			if (respuesta4.value === "infinity war") {
+				document.getElementById("color4").style.color = 'green';
+				cal++;
+			}
+			else{
+				document.getElementById("color4").style.color = 'red';
+			}
+
+			respuesta5 = document.getElementById("5")
+			if (respuesta5.value === "infinity war") {
+				document.getElementById("color5").style.color = 'green';
+				cal++;
+			}
+			else{
+				document.getElementById("color5").style.color = 'red';
+			}
+
+			respuesta6 = document.getElementById("6")
+			if (respuesta6.value === "chris patt") {
+				document.getElementById("color6").style.color = 'green';
+				cal++;
+			}
+			else{
+				document.getElementById("color6").style.color = 'red';
+			}
+
+			respuesta7 = document.getElementById("7")
+			if (respuesta7.value === "Loki") {
+				document.getElementById("color7").style.color = 'green';
+				cal++;
+			}
+			else{
+				document.getElementById("color7").style.color = 'red';
+			}
+
+			respuesta8 = document.getElementById("8")
+			if (respuesta8.value === "2012") {
+				document.getElementById("color8").style.color = 'green';
+				cal++;
+			}
+			else{
+				document.getElementById("color8").style.color = 'red';
+			}
+
+			respuesta9 = document.getElementById("9")
+			if (respuesta9.value === "capitán américa") {
+				document.getElementById("color9").style.color = 'green';
+				cal++;
+			}
+			else{
+				document.getElementById("color9").style.color = 'red';
+			}
+
+			respuesta10 = document.getElementById("10")
+			if (respuesta10.value === "infinity war") {
+				document.getElementById("color10").style.color = 'green';
+				cal++;
+			}
+			else{
+				document.getElementById("color10").style.color = 'red';
+			}
+
+
+			document.getElementById("calificacion").innerHTML = "Tu calificación del examen es: " + cal;
+			document.getElementsByTagName("input").disabled = false;
+		}
+	</script>
+</head>
+<body background="https://img3.akspic.com/image/60903-chris_evans-thor-joss_whedon-the_avengers-avengers_age_of_ultron-1920x1200.jpg">
+
+	<div id="titulo"><h1 align="center">¿Qué tanto conoces a los Vengadores?</h1></div>
+	<div>
+		<label id="color1">1. ¿Qué trilogía de Marvel recaudo más dinero?
+		<input type="text" name="1" id="1" placeholder="Respuesta" onKeyUp="this.value=this.value.toLowerCase();" >
+		</label>
+	</div>
+
+	<div>
+		<label id="color2">2. ¿Qué Gema utiliza visión en su frente?
+		<input type="text" name="2" id="2" placeholder="Respuesta" onKeyUp="this.value=this.value.toLowerCase();" >
+		</label>
+	</div>
+
+	<div>
+		<label id="color3">3. ¿Qué superpoder tiene Wanda?
+		<input type="text" name="3" id="3" placeholder="Respuesta" onKeyUp="this.value=this.value.toLowerCase();" >
+		</label>
+	</div>
+
+	<div>
+		<label id="color4">4. ¿Cuál es el tráiler que tiene más visitas en las 24 horas? 
+		<input type="text" name="4" id="4" placeholder="Respuesta" onKeyUp="this.value=this.value.toLowerCase();" >
+		</label>
+	</div>
+
+	<div>
+		<label id="color5">5. ¿Qué película de los vengadores consiguió recaudar más dinero en su estreno?
+		<input type="text" name="5" id="5" placeholder="Respuesta" onKeyUp="this.value=this.value.toLowerCase();" >
+		</label>
+	</div>
+
+	<div>
+		<label id="color6">6. ¿Qúé actor es el que interpreta a Star Lord?
+		<input type="text" name="6" id="6" placeholder="Respuesta" onKeyUp="this.value=this.value.toLowerCase();" >
+		</label>
+	</div>
+
+	<div>
+		<label id="color7">7. ¿Quién mata al agente Coulson?
+		<input type="text" name="7" id="7" placeholder="Respuesta" onKeyUp="this.value=this.value.toLowerCase();" >
+		</label>
+	</div>
+
+	<div>
+		<label id="color8">8. ¿En que año se estreno la primer película que reúne a todos los vengadores?
+		<input type="text" name="8" id="8" placeholder="Respuesta" onKeyUp="this.value=this.value.toLowerCase();" >
+		</label>
+	</div>
+
+	<div>
+		<label id="color9">9. ¿Quién es considerado el primer vengador?
+		<input type="text" name="9" id="9" placeholder="Respuesta" onKeyUp="this.value=this.value.toLowerCase();" >
+		</label>
+	</div>
+
+	<div>
+		<label id="color10">10. ¿Qué película de los vengadores recaudo mas dinero?
+		<input type="text" name="10" id="10" placeholder="Respuesta" onKeyUp="this.value=this.value.toLowerCase();" >
+		</label>
+	</div>
+
+	<p id="boton"><button onclick="calcular()">Calificar</button></p>
+
+	<div id="calificacion"></div>
+
+
+</body>
+</html>
